@@ -51,7 +51,7 @@
 		"strength": 25,
 		"cost": 150,
 		"obsoleteTech": "Rifling"
-		"uniques" : ["[+50]% Strength in [Desert]"],
+		"uniques" : ["[+50]% Strength <in [Desert] tiles>"],
 		"promotions": ["Vampire Conversion"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText":[{text:"Daywalkers are immune to the sunlight weakness while still retaining most of their strengths."}]
