@@ -132,7 +132,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Atlantis",
 		"replaces": "Great Artist",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]","Can construct [Sea Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>","Can instantly construct a [Sea Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
 		"movement": 2
 	},
 	{
@@ -140,7 +140,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Atlantis",
 		"replaces": "Great Scientist",
-		"uniques": ["Can hurry technology research","Can construct [Academy]","Can construct [Sea Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"uniques": ["Can hurry technology research","Can instantly construct a [Academy] improvement <by consuming this unit>","Can instantly construct a [Sea Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
 		"movement": 2
 	},
 	{
@@ -148,7 +148,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Atlantis",
 		"replaces": "Great Merchant",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can construct [Customs house]","Can construct [Sea Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can instantly construct a [Customs house] improvement <by consuming this unit>","Can instantly construct a [Sea Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
 		"movement": 2
 	},
 	{
@@ -156,7 +156,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Atlantis",
 		"replaces": "Great Engineer",
-		"uniques": ["Can speed up construction of a building","Can construct [Manufactory]","Can construct [Sea Manufactory]", "Great Person - [Production]", "Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
+		"uniques": ["Can speed up construction of a building","Can instantly construct a [Manufactory]","Can instantly construct a [Sea Manufactory]", "Great Person - [Production]", "Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
 		"movement": 2
 	},
 	{
@@ -164,8 +164,8 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Atlantis",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing","Can construct [Citadel]","Can construct [Sea Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing","Can instantly construct a [Citadel] improvement <by consuming this unit>","Can instantly construct a [Sea Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
 		"movement": 5
 	},
 	{
@@ -173,12 +173,12 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Atlantis",
 		"replaces": "Great Prophet",
-		"uniques": ["Can construct [Holy site] if it hasn't used other actions yet","Can construct [Sea Holy site] if it hasn't used other actions yet","Can [Spread Religion] [4] times",
+		"uniques": ["Can instantly construct a [Holy site] <if it hasn't used other actions yet>","Can instantly construct a [Sea Holy site] <if it hasn't used other actions yet>","Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
 			"Takes your religion over the one in their birth city","Will not be displayed in Civilopedia"],
 		"movement": 2,
 		"religiousStrength": 1000
-	},
+	}
 ]
