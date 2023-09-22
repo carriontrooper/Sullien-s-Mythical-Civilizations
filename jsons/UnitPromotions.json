@@ -1,0 +1,34 @@
+[
+    {
+		"name": "Vampiric",
+		"uniques": ["Unit will heal every turn, even if it performs an action","[-50]% Strength <when fighting in [Desert] tiles>"]
+	},
+	{
+		"name": "Vampire Conversion",
+		"uniques": ["Heals [33] damage if it kills a unit","May capture killed [All] units"]
+	},
+	{
+		"name": "Spiritual",
+		"uniques": ["Invisible to non-adjacent units","[-15]% Strength <when attacking>"]
+	}
+	{
+		"name": "Harbringer",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","Earn [100]% of killed [Barbarian] unit's [Strength] as [Faith]","[+15]% Strength <vs [Wounded] units>"]
+	},
+	{
+		"name": "Scythe",
+		"uniques": ["Heals [80] damage if it kills a unit"]
+	},
+	{
+		"name": "Noble Knight's Ability",
+		"uniques": ["[+33]% Strength <vs [Ranged] units>"]
+	},
+	{
+		"name": "Magecraft",
+		"uniques": ["[+50]% Strength <when attacking> <with [25]% chance>","[+50]% Strength <when defending> <with [25]% chance>"]
+	},
+	{
+		"name": "Hex Field",
+		"uniques": ["All adjacent units heal [+15] HP when healing"],
+	}
+]

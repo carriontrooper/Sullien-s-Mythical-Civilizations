@@ -1,0 +1,43 @@
+[
+   {
+		"name": "Sea Academy",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"science": 20,
+		"uniques": ["Great Improvement", "Removes removable features when built","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sea Landmark",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"culture": 12,
+		"uniques": ["Great Improvement", "Removes removable features when built","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sea Manufactory",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"production": 10,
+		"uniques": ["Great Improvement", "Removes removable features when built","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sea Customs house",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"gold": 10,
+		"uniques": ["Great Improvement", "Removes removable features when built","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sea Holy site",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"faith": 12,
+		"uniques": ["Great Improvement","Removes removable features when built","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sea Citadel",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built","Will not be displayed in Civilopedia"]
+	},
+]

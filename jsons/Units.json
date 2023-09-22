@@ -1,0 +1,184 @@
+[
+	{
+		"name": "Death Fanatic",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Reapers",
+		"movement": 2,
+		"uniques": ["Founds a new city <during the [Ancient era]>","Can build [Land] improvements on tiles"],
+		"cost": 70
+	},
+	{
+		"name": "Noble Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Great Britain",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"promotions": ["Noble Knight's Ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Grim Reaper",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Reapers"
+		"movement": 6,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
+		"hurryCostModifier": 20,
+		"promotions": ["Scythe"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Daywalker",
+		"unitType": "Sword",
+		"uniqueTo": "Vampires",
+		"replaces": "Musketman",
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"movement": 2,
+		"strength": 25,
+		"cost": 150,
+		"obsoleteTech": "Rifling"
+		"uniques" : ["[+50]% Strength in [Desert]"],
+		"promotions": ["Vampire Conversion"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText":[{text:"Daywalkers are immune to the sunlight weakness while still retaining most of their strengths."}]
+	},
+	{
+		"name": "Spiritualist",
+		"replaces": "Machine Gun",
+		"unitType": "Archery",
+		"uniqueTo": "Shangri-La",
+		"range": 1,
+		"movement": 2,
+		"strength": 75,
+		"rangedStrength": 45,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"promotions": ["Survivalism I","Survivalism II","March"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText":[{text:"In an era where war and conflict can be seen everywhere, the spiritualists put aside modern weapons to lead a life of peace and calm."}]
+	},
+	{
+		"name": "Alien UFO",
+		"replaces": "Modern Armor",
+		"uniqueTo": "Alien Visitor"
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 125,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking","[+33]% Strength <vs [Air] units>","Ignores terrain cost","No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Caster"
+		"replaces": "Crossbowman",
+		"uniqueTo": "Wizard Association"
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Hex Field"],
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Sonar Shark"
+		"replaces": "Trireme",
+		"uniqueTo": "Atlantis"
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Sailing",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gundam"
+		"replaces": "Giant Death Robot",
+		"uniqueTo": "The Illuminati"
+		"unitType": "Armored",
+		"movement": 5,
+		"interceptRange": 5,
+		"strength": 175,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["[100]% chance to intercept air attacks","[+33]% Strength <vs [Air] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Interception I","Sortie"]
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Atlantean Great Artist",
+		"unitType": "Civilian",
+		"uniqueTo": "Atlantis",
+		"replaces": "Great Artist",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]","Can construct [Sea Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Atlantean Great Scientist",
+		"unitType": "Civilian",
+		"uniqueTo": "Atlantis",
+		"replaces": "Great Scientist",
+		"uniques": ["Can hurry technology research","Can construct [Academy]","Can construct [Sea Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Atlantean Great Merchant",
+		"unitType": "Civilian",
+		"uniqueTo": "Atlantis",
+		"replaces": "Great Merchant",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can construct [Customs house]","Can construct [Sea Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Atlantean Great Engineer",
+		"unitType": "Civilian",
+		"uniqueTo": "Atlantis",
+		"replaces": "Great Engineer",
+		"uniques": ["Can speed up construction of a building","Can construct [Manufactory]","Can construct [Sea Manufactory]", "Great Person - [Production]", "Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Atlantean Great General",
+		"unitType": "Civilian",
+		"uniqueTo": "Atlantis",
+		"replaces": "Great General",
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing","Can construct [Citadel]","Can construct [Sea Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 5
+	},
+	{
+		"name": "Atlantean Great Prophet",
+		"unitType": "Civilian",
+		"uniqueTo": "Atlantis",
+		"replaces": "Great Prophet",
+		"uniques": ["Can construct [Holy site] if it hasn't used other actions yet","Can construct [Sea Holy site] if it hasn't used other actions yet","Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city","Will not be displayed in Civilopedia"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+]

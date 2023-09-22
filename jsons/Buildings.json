@@ -1,0 +1,80 @@
+[
+	{
+		"name": "Abduction Center",
+		"replaces": "Granary",
+		"uniqueTo": "Alien Visitor"
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] from [Bonus resource] tiles [in this city]",
+		    "[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Round Table",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Great Britain",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Free [Great General] appears","New [Military] units start with [15] Experience [in this city]","Requires a [Barracks] in all cities","All newly-trained [non-air] units [in this city] receive the [Morale] promotion","Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
+	},
+	{
+	   "name": "Dracula Castle",
+	   "replaces": "Castle",
+	   "uniqueTo": "Vampires",
+	   "cityStrength": 7,
+	   "cityHealth": 25,
+	   "maintenance": 1,
+	   "requiredBuilding": "Walls",
+	   "requiredTech": "Chivalry",
+	   "uniques": ["[+33]% Production when constructing [All] units [in this city]",
+	   "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Spiritual Barrier",
+		"replaces": "Military Base",
+		"uniqueTo": "Shangri-La",
+		"cityStrength": 4,
+		"cityHealth": 75,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Magic Texts",
+		"uniqueTo": "Wizard Association"
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Faith] per [2] population [in this city]","[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Seahouse"
+		"replaces": "Lighthouse",
+		"uniqueTo": "Atlantis",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]","[+50]% Great Person generation [in this city]","[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Secret Society"
+		"replaces": "National College",
+		"uniqueTo": "The Illuminati",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities","[+15]% [Science] [in all cities] <while the empire is happy>","[+30]% [Gold] [in all cities] <when below [0] Happiness>","Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+]
